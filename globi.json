@@ -1,0 +1,189 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "EuroBaTrait_v1.0/Traits/pathogens.csv",
+    "dcterms:bibliographicCitation" : "Froidevaux, J.S.P., Toshkova, N., Barbaro, L. et al., 2023. A species-level trait dataset of bats in Europe and beyond. Science Data 10, 253. https://doi.org/10.1038/s41597-023-02157-4",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002557",
+    "interactionTypeName": "hasPathogen",
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "",
+        "titles" : "",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "verbatimScientificName",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimTraitName",
+        "titles" : "verbatimTraitName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "verbatimTraitValue",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimTraitValueSD",
+        "titles" : "verbatimTraitValueSD",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimTraitValueCV",
+        "titles" : "verbatimTraitValueCV",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimTraitValueType",
+        "titles" : "verbatimTraitValueType",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimTraitMethod",
+        "titles" : "verbatimTraitMethod",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimTraitUnit",
+        "titles" : "verbatimTraitUnit",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimN1",
+        "titles" : "verbatimN1",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimN1Unit",
+        "titles" : "verbatimN1Unit",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimN2",
+        "titles" : "verbatimN2",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimN2Unit",
+        "titles" : "verbatimN2Unit",
+        "datatype" : "string"
+      }, {
+        "name" : "Area",
+        "titles" : "Area",
+        "datatype" : "string"
+      }, {
+        "name" : "ShortReference",
+        "titles" : "ShortReference",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "FullReference",
+        "datatype" : "string"
+      }, {
+        "name" : "AdditionalInfo1",
+        "titles" : "AdditionalInfo1",
+        "datatype" : "string"
+      }, {
+        "name" : "AdditionalInfo2",
+        "titles" : "AdditionalInfo2",
+        "datatype" : "string"
+      }, {
+        "name" : "AdditionalInfo3",
+        "titles" : "AdditionalInfo3",
+        "datatype" : "string"
+      } ]
+    }
+  }, {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "EuroBaTrait_v1.0/Traits/diet.csv",
+    "dcterms:bibliographicCitation" : "Froidevaux, J.S.P., Toshkova, N., Barbaro, L. et al., 2023. A species-level trait dataset of bats in Europe and beyond. Science Data 10, 253. https://doi.org/10.1038/s41597-023-02157-4",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002470",
+    "interactionTypeName": "eats",
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "",
+        "titles" : "",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "verbatimScientificName",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimTraitName",
+        "titles" : "verbatimTraitName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "verbatimTraitValue",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimTraitValueSD",
+        "titles" : "verbatimTraitValueSD",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimTraitValueCV",
+        "titles" : "verbatimTraitValueCV",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimTraitValueType",
+        "titles" : "verbatimTraitValueType",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimTraitMethod",
+        "titles" : "verbatimTraitMethod",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimTraitUnit",
+        "titles" : "verbatimTraitUnit",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimN1",
+        "titles" : "verbatimN1",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimN1Unit",
+        "titles" : "verbatimN1Unit",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimN2",
+        "titles" : "verbatimN2",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimN2Unit",
+        "titles" : "verbatimN2Unit",
+        "datatype" : "string"
+      }, {
+        "name" : "Area",
+        "titles" : "Area",
+        "datatype" : "string"
+      }, {
+        "name" : "ShortReference",
+        "titles" : "ShortReference",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "FullReference",
+        "datatype" : "string"
+      }, {
+        "name" : "AdditionalInfo1",
+        "titles" : "AdditionalInfo1",
+        "datatype" : "string"
+      }, {
+        "name" : "AdditionalInfo2",
+        "titles" : "AdditionalInfo2",
+        "datatype" : "string"
+      }, {
+        "name" : "AdditionalInfo3",
+        "titles" : "AdditionalInfo3",
+        "datatype" : "string"
+      } ]
+    }
+  }  ]
+}
